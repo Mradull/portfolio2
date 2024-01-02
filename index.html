@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0907169f6b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-------HEADER------>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/MRADUL.png" class="logo">
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#potfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                   
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"> </i>
+                        </nav>
+            <div class="header-text">
+                <h1>Hi There,<br>   I'm Mradull</h1>
+                <h2>a <u>pro</u>gramm<span>er</span></h2>
+            </div>
+        </div>
+    </div>
+
+    <!--------ABOUT--------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/passport.jpg">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Sub-title">About Me</h1>
+                    <p>I am an Android and Web Developer. I have built several projects.
+                        <br>I ❤️ to code and fuck your mom.</p>
+                        <div class= "tab-titles"> 
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experince')">Experince</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Editing</span><br>Video & Photo Editing</li>
+                                <li><span>Web Development</span><br> Web Developer</li>
+                                <li><span>App Development</span><br>Android App Developer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experince">
+                            <ul>
+                                <li><span>2023 - Current</span><br>GfG core Member</li>
+                                <li><span>2022 - Current</span><br>CSI Core Member</li>
+                                <li><span>2023 - Current</span><br>GDSC Core Member</li>
+                                <li><span>2023 - Current</span><br>ISTE Core Member</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>Science | PCM <br>St. Mary's Convent Inter College Lucknow | ICSE</li>
+                                <li><span>2022 - Current</span><br>Bachelor Of Technology<br> Computer Science Engineering <br>SRM Institute Of Science And Technology</li>
+                            </ul>
+                        </div>
+
+
+                </div>
+            </div>
+        </div>
+           
+    </div>
+    <a href="images/resume_me.pdf" download class="btn btn2">Resume</a>
+
+    <!--- -------services------ --->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="Sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                         src="https://cdn.lordicon.com/zfzufhzk.json"
+                         trigger="loop"
+                         delay="1500"
+                         state="in-dynamic"
+                         style="width:200px;height:200px">
+                     </lord-icon>
+
+                    <h2>Editor & Designer</h2>
+                    <p>I am a passionate editor and designer dedicated to transforming ideas into visually stunning realities.Explore my portfolio to witness a fusion of creativity and technical expertise, showcasing a diverse range of projects spanning from video editing to graphic design.Let's collaborate to bring your vision to life.</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/ffpklhrd.json"
+                    trigger="loop"
+                    delay="2000"
+                    style="width:200px;height:200px">
+                    </lord-icon>
+            
+                    <h2>Android Developer</h2>
+                    <p>As an Android app developer, I thrive on turning innovative concepts into interactive and seamless user experiences. Dive into my portfolio to discover a collection of dynamic and intuitive mobile applications that showcase my technical prowess and commitment to creating impactful solutions. From sleek UI designs to efficient coding, each project reflects my dedication to pushing the boundaries</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/nvrrlies.json"
+                    trigger="loop"
+                    delay="1000"
+                    state="morph-code"
+                    style="width:200px;height:200px">
+                    </lord-icon>
+            
+                    <h2>Web Developer</h2>
+                    <p>As a skilled web developer, I specialize in transforming creative visions into immersive online experiences. Explore my portfolio to find a curated collection of websites that exemplify my technical proficiency and dedication to crafting impactful digital solutions. From elegant user interfaces to robust coding, each project reflects my commitment to pushing the boundaries of web development and delivering engaging online journeys</p>
+
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="skills">
+        <div class="s-container">
+            <h1 class="Sub-title">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/zqrkuisv.json"
+                        trigger="loop"
+                        delay="2000"
+                        style="width:100px;height:100px">
+                    </lord-icon>
+
+                    
+                   
+                </div>
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/cxlifqcf.json"
+                    trigger="loop"
+                    delay="2000"
+                    style="width:100px;height:100px">
+                </lord-icon>
+            
+                    
+                    
+                    
+                </div>
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                            src="https://cdn.lordicon.com/bizvwhwt.json"
+                            trigger="loop"
+                            delay="2000"
+                            style="width:100px;height:100px">
+                        </lord-icon>
+            
+                   
+                   
+                   
+                </div>
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                        src="https://cdn.lordicon.com/zqrkuisv.json"
+                        trigger="loop"
+                        delay="2000"
+                        style="width:100px;height:100px">
+                    </lord-icon>
+
+                    
+                   
+                </div>
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                    src="https://cdn.lordicon.com/cxlifqcf.json"
+                    trigger="loop"
+                    delay="2000"
+                    style="width:100px;height:100px">
+                </lord-icon>
+            
+                    
+                    
+                    
+                </div>
+                <div>
+                    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+                    <lord-icon
+                            src="https://cdn.lordicon.com/bizvwhwt.json"
+                            trigger="loop"
+                            delay="2000"
+                            style="width:100px;height:100px">
+                        </lord-icon>
+            
+                   
+                   
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----portfolio----------------->
+    <div id="potfolio">
+        <div class="container">
+            <h1 class="Sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img class="portfolio-image"  src="images/guess.jpg">
+                    <div class="layer">
+                        <h3>Guess The Number Game</h3>
+                        <p>Check out my 'Guess the Number' project on my portfolio website! It's a playful interactive game where users try to guess the secret number. </p>
+
+                    
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img class="portfolio-image" src="images/calculator.jpg">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Explore my calculator app project on my portfolio – a user-friendly tool that simplifies complex calculations with ease</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img class="portfolio-image" src="images/vault.jpg">
+                    <div class="layer">
+                        <h3>Private Vault App</h3>
+                        <p>Discover my Private Vault app showcased in my portfolio – a secure haven for your sensitive data.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!--------Contact--------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="Sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>mradul.kapoor2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8081000546</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/mradulkapoooor/"><i class="fa-brands fa-instagram" style="color: #cd486b;"></i></a>
+                        <a href="https://www.linkedin.com/in/mradul-kapoor-75142b247/"><i class="fa-brands fa-linkedin" style="color: #0a66c2;"></i></a>
+                        <a href="https://github.com/Mradull"><i class="fa-brands fa-github"></i></i></a>
+
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright  © Mradul </p>
+        </div>
+    </div>
+
+
+    <!-----JAVASCRIPT----------->
+
+    <script>
+        
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyMgs5mA4IpYezhNWngUi2mQObWo8H2PFAb5Mb7RZFRXIU0V1Jj5nXRrDlrTntYSlXsoQ/exec'
+
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
