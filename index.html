@@ -46,7 +46,7 @@
                 <div class="about-col-2">
                     <h1 class="Sub-title">About Me</h1>
                     <p>I am an Android and Web Developer. I have built several projects.
-                        <br>I ❤️ to code and fuck your mom.</p>
+                        <br>I love to code and solve problems.</p>
                         <div class= "tab-titles"> 
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                             <p class="tab-links" onclick="opentab('experince')">Experince</p>
@@ -330,7 +330,7 @@
       
         form.addEventListener('submit', e => {
           e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)}) 
             .then(response => {
                 msg.innerHTML="Message sent succesfully"
             setTimeout(function(){
